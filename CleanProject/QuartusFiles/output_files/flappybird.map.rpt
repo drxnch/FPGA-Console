@@ -1,5 +1,5 @@
 Analysis & Synthesis report for flappybird
-Tue May 28 13:27:14 2024
+Tue Nov 11 17:11:48 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -76,7 +76,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue May 28 13:27:14 2024       ;
+; Analysis & Synthesis Status     ; Successful - Tue Nov 11 17:11:48 2025       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; flappybird                                  ;
 ; Top-level Entity Name           ; flappybird                                  ;
@@ -207,62 +207,64 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                ;
-+--------------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path     ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                  ; Library ;
-+--------------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
-; ../VhdlFiles/ground_rom.vhd          ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd                ;         ;
-; ../VhdlFiles/level_speed_changer.vhd ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd       ;         ;
-; ../VhdlFiles/char_rom.vhd            ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd                  ;         ;
-; ../VhdlFiles/lfsr.vhd                ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/lfsr.vhd                      ;         ;
-; ../VhdlFiles/gap_width_control.vhd   ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd         ;         ;
-; ../VhdlFiles/lives.vhd               ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd                     ;         ;
-; ../VhdlFiles/static_text.vhd         ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd               ;         ;
-; ../VhdlFiles/score_display.vhd       ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd             ;         ;
-; ../VhdlFiles/score.vhd               ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/score.vhd                     ;         ;
-; ../VhdlFiles/powerups_collision.vhd  ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups_collision.vhd        ;         ;
-; ../VhdlFiles/powerups.vhd            ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd                  ;         ;
-; ../VhdlFiles/ground.vhd              ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/ground.vhd                    ;         ;
-; ../VhdlFiles/bird.vhd                ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd                      ;         ;
-; ../VhdlFiles/pipes.vhd               ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd                     ;         ;
-; ../VhdlFiles/collisions.vhd          ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/collisions.vhd                ;         ;
-; ../VhdlFiles/game_fsm.vhd            ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd                  ;         ;
-; ../VhdlFiles/level_fsm.vhd           ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd                 ;         ;
-; ../VhdlFiles/display_controller.vhd  ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/display_controller.vhd        ;         ;
-; ../VhdlFiles/vga_sync.vhd            ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd                  ;         ;
-; ../VhdlFiles/mouse.vhd               ; yes             ; User VHDL File                     ; C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd                     ;         ;
-; flappybird.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/deven/Documents/CleanProject/QuartusFiles/flappybird.bdf             ;         ;
-; pll.vhd                              ; yes             ; User Wizard-Generated File         ; C:/Users/deven/Documents/CleanProject/QuartusFiles/pll.vhd                    ; pll     ;
-; pll/pll_0002.v                       ; yes             ; User Verilog HDL File              ; C:/Users/deven/Documents/CleanProject/QuartusFiles/pll/pll_0002.v             ; pll     ;
-; altera_pll.v                         ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altera_pll.v           ;         ;
-; altsyncram.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf         ;         ;
-; stratix_ram_block.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc  ;         ;
-; lpm_mux.inc                          ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc            ;         ;
-; lpm_decode.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc         ;         ;
-; aglobal181.inc                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc         ;         ;
-; a_rdenreg.inc                        ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc          ;         ;
-; altrom.inc                           ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc             ;         ;
-; altram.inc                           ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc             ;         ;
-; altdpram.inc                         ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc           ;         ;
-; db/altsyncram_76g1.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf     ;         ;
-; db/altsyncram_vtf1.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf     ;         ;
-; lpm_divide.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf         ;         ;
-; abs_divider.inc                      ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc        ;         ;
-; sign_div_unsign.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc    ;         ;
-; db/lpm_divide_c2m.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_c2m.tdf      ;         ;
-; db/sign_div_unsign_fkh.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_fkh.tdf ;         ;
-; db/alt_u_div_4te.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_4te.tdf       ;         ;
-; db/lpm_divide_9am.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_9am.tdf      ;         ;
-; db/sign_div_unsign_gkh.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_gkh.tdf ;         ;
-; db/alt_u_div_5te.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_5te.tdf       ;         ;
-; db/lpm_divide_e2m.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_e2m.tdf      ;         ;
-; db/sign_div_unsign_hkh.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_hkh.tdf ;         ;
-; db/alt_u_div_8te.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_8te.tdf       ;         ;
-; db/lpm_divide_6am.tdf                ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_6am.tdf      ;         ;
-; db/sign_div_unsign_ckh.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_ckh.tdf ;         ;
-; db/alt_u_div_use.tdf                 ; yes             ; Auto-Generated Megafunction        ; C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_use.tdf       ;         ;
-+--------------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                      ;
++--------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path     ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                    ; Library ;
++--------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; ../VhdlFiles/ground_rom.vhd          ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd                ;         ;
+; ../VhdlFiles/level_speed_changer.vhd ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd       ;         ;
+; ../VhdlFiles/char_rom.vhd            ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd                  ;         ;
+; ../VhdlFiles/lfsr.vhd                ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lfsr.vhd                      ;         ;
+; ../VhdlFiles/gap_width_control.vhd   ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd         ;         ;
+; ../VhdlFiles/lives.vhd               ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd                     ;         ;
+; ../VhdlFiles/static_text.vhd         ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd               ;         ;
+; ../VhdlFiles/score_display.vhd       ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd             ;         ;
+; ../VhdlFiles/score.vhd               ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score.vhd                     ;         ;
+; ../VhdlFiles/powerups_collision.vhd  ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups_collision.vhd        ;         ;
+; ../VhdlFiles/powerups.vhd            ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd                  ;         ;
+; ../VhdlFiles/ground.vhd              ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground.vhd                    ;         ;
+; ../VhdlFiles/bird.vhd                ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd                      ;         ;
+; ../VhdlFiles/pipes.vhd               ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd                     ;         ;
+; ../VhdlFiles/collisions.vhd          ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/collisions.vhd                ;         ;
+; ../VhdlFiles/game_fsm.vhd            ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd                  ;         ;
+; ../VhdlFiles/level_fsm.vhd           ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd                 ;         ;
+; ../VhdlFiles/display_controller.vhd  ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/display_controller.vhd        ;         ;
+; ../VhdlFiles/vga_sync.vhd            ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd                  ;         ;
+; ../VhdlFiles/mouse.vhd               ; yes             ; User VHDL File                         ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd                     ;         ;
+; flappybird.bdf                       ; yes             ; User Block Diagram/Schematic File      ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/flappybird.bdf             ;         ;
+; pll.vhd                              ; yes             ; User Wizard-Generated File             ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll.vhd                    ; pll     ;
+; pll/pll_0002.v                       ; yes             ; User Verilog HDL File                  ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll/pll_0002.v             ; pll     ;
+; altera_pll.v                         ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altera_pll.v                             ;         ;
+; altsyncram.tdf                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                           ;         ;
+; stratix_ram_block.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                    ;         ;
+; lpm_mux.inc                          ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                              ;         ;
+; lpm_decode.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                           ;         ;
+; aglobal181.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                           ;         ;
+; a_rdenreg.inc                        ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                            ;         ;
+; altrom.inc                           ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                               ;         ;
+; altram.inc                           ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                               ;         ;
+; altdpram.inc                         ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                             ;         ;
+; db/altsyncram_76g1.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf     ;         ;
+; ../VhdlFiles/water.mif               ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/water.mif                     ;         ;
+; db/altsyncram_vtf1.tdf               ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf     ;         ;
+; ../VhdlFiles/char.mif                ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char.mif                      ;         ;
+; lpm_divide.tdf                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf                           ;         ;
+; abs_divider.inc                      ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc                          ;         ;
+; sign_div_unsign.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc                      ;         ;
+; db/lpm_divide_c2m.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_c2m.tdf      ;         ;
+; db/sign_div_unsign_fkh.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_fkh.tdf ;         ;
+; db/alt_u_div_4te.tdf                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_4te.tdf       ;         ;
+; db/lpm_divide_9am.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_9am.tdf      ;         ;
+; db/sign_div_unsign_gkh.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_gkh.tdf ;         ;
+; db/alt_u_div_5te.tdf                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_5te.tdf       ;         ;
+; db/lpm_divide_e2m.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_e2m.tdf      ;         ;
+; db/sign_div_unsign_hkh.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_hkh.tdf ;         ;
+; db/alt_u_div_8te.tdf                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_8te.tdf       ;         ;
+; db/lpm_divide_6am.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_6am.tdf      ;         ;
+; db/sign_div_unsign_ckh.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_ckh.tdf ;         ;
+; db/alt_u_div_use.tdf                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_use.tdf       ;         ;
++--------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------------------------------------------------------+
@@ -1494,77 +1496,77 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue May 28 13:26:59 2024
+    Info: Processing started: Tue Nov 11 17:11:32 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off flappybird -c flappybird
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/ground_rom.vhd
-    Info (12022): Found design unit 1: ground_rom-Behavioral File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd Line: 15
-    Info (12023): Found entity 1: ground_rom File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/level_speed_changer.vhd
-    Info (12022): Found design unit 1: speed_control-rtl File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 13
-    Info (12023): Found entity 1: speed_control File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/char_rom.vhd
-    Info (12022): Found design unit 1: char_rom-SYN File: C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd Line: 18
-    Info (12023): Found entity 1: char_rom File: C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd Line: 9
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/lfsr.vhd
-    Info (12022): Found design unit 1: GaloisLFSR8-Behavioral File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lfsr.vhd Line: 12
-    Info (12023): Found entity 1: GaloisLFSR8 File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lfsr.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/gap_width_control.vhd
-    Info (12022): Found design unit 1: gap_width_control-rtl File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 13
-    Info (12023): Found entity 1: gap_width_control File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/lives.vhd
-    Info (12022): Found design unit 1: lives_display-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 18
-    Info (12023): Found entity 1: lives_display File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 7
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/static_text.vhd
-    Info (12022): Found design unit 1: static_text-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 17
-    Info (12023): Found entity 1: static_text File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 7
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/score_display.vhd
-    Info (12022): Found design unit 1: score_display-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 18
-    Info (12023): Found entity 1: score_display File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/score.vhd
-    Info (12022): Found design unit 1: score-rtl File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score.vhd Line: 15
-    Info (12023): Found entity 1: score File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/powerups_collision.vhd
-    Info (12022): Found design unit 1: powerup_collision-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups_collision.vhd Line: 18
-    Info (12023): Found entity 1: powerup_collision File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups_collision.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/powerups.vhd
-    Info (12022): Found design unit 1: powerups-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 20
-    Info (12023): Found entity 1: powerups File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/ground.vhd
-    Info (12022): Found design unit 1: ground-behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground.vhd Line: 15
-    Info (12023): Found entity 1: ground File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/bird.vhd
-    Info (12022): Found design unit 1: bird-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 18
-    Info (12023): Found entity 1: bird File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/pipes.vhd
-    Info (12022): Found design unit 1: pipes-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 20
-    Info (12023): Found entity 1: pipes File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/collisions.vhd
-    Info (12022): Found design unit 1: collisions-Behavioral File: C:/Users/deven/Documents/CleanProject/VhdlFiles/collisions.vhd Line: 15
-    Info (12023): Found entity 1: collisions File: C:/Users/deven/Documents/CleanProject/VhdlFiles/collisions.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/game_fsm.vhd
-    Info (12022): Found design unit 1: game_fsm-Behavioral File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 17
-    Info (12023): Found entity 1: game_fsm File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/level_fsm.vhd
-    Info (12022): Found design unit 1: level_fsm-Behavioral File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd Line: 25
-    Info (12023): Found entity 1: level_fsm File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/display_controller.vhd
-    Info (12022): Found design unit 1: display_controller-behaviour File: C:/Users/deven/Documents/CleanProject/VhdlFiles/display_controller.vhd Line: 29
-    Info (12023): Found entity 1: display_controller File: C:/Users/deven/Documents/CleanProject/VhdlFiles/display_controller.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/vga_sync.vhd
-    Info (12022): Found design unit 1: VGA_SYNC-a File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 15
-    Info (12023): Found entity 1: VGA_SYNC File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 7
-Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/cleanproject/vhdlfiles/mouse.vhd
-    Info (12022): Found design unit 1: MOUSE-behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 18
-    Info (12023): Found entity 1: MOUSE File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/ground_rom.vhd
+    Info (12022): Found design unit 1: ground_rom-Behavioral File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 15
+    Info (12023): Found entity 1: ground_rom File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/level_speed_changer.vhd
+    Info (12022): Found design unit 1: speed_control-rtl File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 13
+    Info (12023): Found entity 1: speed_control File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/char_rom.vhd
+    Info (12022): Found design unit 1: char_rom-SYN File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd Line: 18
+    Info (12023): Found entity 1: char_rom File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/lfsr.vhd
+    Info (12022): Found design unit 1: GaloisLFSR8-Behavioral File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lfsr.vhd Line: 12
+    Info (12023): Found entity 1: GaloisLFSR8 File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lfsr.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/gap_width_control.vhd
+    Info (12022): Found design unit 1: gap_width_control-rtl File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 13
+    Info (12023): Found entity 1: gap_width_control File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/lives.vhd
+    Info (12022): Found design unit 1: lives_display-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 18
+    Info (12023): Found entity 1: lives_display File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/static_text.vhd
+    Info (12022): Found design unit 1: static_text-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 17
+    Info (12023): Found entity 1: static_text File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/score_display.vhd
+    Info (12022): Found design unit 1: score_display-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 18
+    Info (12023): Found entity 1: score_display File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/score.vhd
+    Info (12022): Found design unit 1: score-rtl File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score.vhd Line: 15
+    Info (12023): Found entity 1: score File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/powerups_collision.vhd
+    Info (12022): Found design unit 1: powerup_collision-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups_collision.vhd Line: 18
+    Info (12023): Found entity 1: powerup_collision File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups_collision.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/powerups.vhd
+    Info (12022): Found design unit 1: powerups-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 20
+    Info (12023): Found entity 1: powerups File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/ground.vhd
+    Info (12022): Found design unit 1: ground-behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground.vhd Line: 15
+    Info (12023): Found entity 1: ground File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/bird.vhd
+    Info (12022): Found design unit 1: bird-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 18
+    Info (12023): Found entity 1: bird File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/pipes.vhd
+    Info (12022): Found design unit 1: pipes-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 20
+    Info (12023): Found entity 1: pipes File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/collisions.vhd
+    Info (12022): Found design unit 1: collisions-Behavioral File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/collisions.vhd Line: 15
+    Info (12023): Found entity 1: collisions File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/collisions.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/game_fsm.vhd
+    Info (12022): Found design unit 1: game_fsm-Behavioral File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 17
+    Info (12023): Found entity 1: game_fsm File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/level_fsm.vhd
+    Info (12022): Found design unit 1: level_fsm-Behavioral File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd Line: 25
+    Info (12023): Found entity 1: level_fsm File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/display_controller.vhd
+    Info (12022): Found design unit 1: display_controller-behaviour File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/display_controller.vhd Line: 29
+    Info (12023): Found entity 1: display_controller File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/display_controller.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/vga_sync.vhd
+    Info (12022): Found design unit 1: VGA_SYNC-a File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 15
+    Info (12023): Found entity 1: VGA_SYNC File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /users/deven/documents/fpga/fpga-console/cleanproject/vhdlfiles/mouse.vhd
+    Info (12022): Found design unit 1: MOUSE-behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 18
+    Info (12023): Found entity 1: MOUSE File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file flappybird.bdf
     Info (12023): Found entity 1: flappybird
 Info (12021): Found 2 design units, including 1 entities, in source file pll.vhd
-    Info (12022): Found design unit 1: pll-rtl File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll.vhd Line: 20
-    Info (12023): Found entity 1: pll File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll.vhd Line: 11
+    Info (12022): Found design unit 1: pll-rtl File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll.vhd Line: 20
+    Info (12023): Found entity 1: pll File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file pll/pll_0002.v
-    Info (12023): Found entity 1: pll_0002 File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll/pll_0002.v Line: 2
+    Info (12023): Found entity 1: pll_0002 File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll/pll_0002.v Line: 2
 Info (12127): Elaborating entity "flappybird" for the top level hierarchy
 Warning (275089): Not all bits in bus "LEDR[9..0]" are used
 Warning (275080): Converted elements in bus name "LEDR" using legacy naming rules. Make any assignments on the new names, not on the original names.
@@ -1580,11 +1582,11 @@ Warning (275080): Converted elements in bus name "LEDR" using legacy naming rule
 Warning (275043): Pin "LEDR4" is missing source
 Info (12128): Elaborating entity "VGA_SYNC" for hierarchy "VGA_SYNC:inst2"
 Info (12128): Elaborating entity "pll" for hierarchy "pll:inst"
-Info (12128): Elaborating entity "pll_0002" for hierarchy "pll:inst|pll_0002:pll_inst" File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll.vhd Line: 32
-Info (12128): Elaborating entity "altera_pll" for hierarchy "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
+Info (12128): Elaborating entity "pll_0002" for hierarchy "pll:inst|pll_0002:pll_inst" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll.vhd Line: 32
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
-Info (12133): Instantiated megafunction "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/deven/Documents/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
+Info (12133): Instantiated megafunction "pll:inst|pll_0002:pll_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/pll/pll_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -1647,120 +1649,120 @@ Info (12133): Instantiated megafunction "pll:inst|pll_0002:pll_inst|altera_pll:a
     Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "display_controller" for hierarchy "display_controller:inst7"
 Info (12128): Elaborating entity "bird" for hierarchy "bird:inst26"
-Warning (10540): VHDL Signal Declaration warning at bird.vhd(22): used explicit default value for signal "bird_x_pos" because signal was never assigned a value File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 22
-Warning (10036): Verilog HDL or VHDL warning at bird.vhd(36): object "u_f_row" assigned a value but never read File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 36
-Warning (10036): Verilog HDL or VHDL warning at bird.vhd(36): object "u_f_col" assigned a value but never read File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 36
-Warning (10492): VHDL Process Statement warning at bird.vhd(59): signal "pause_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 59
-Warning (10492): VHDL Process Statement warning at bird.vhd(59): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 59
-Warning (10492): VHDL Process Statement warning at bird.vhd(61): signal "menu_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 61
-Warning (10492): VHDL Process Statement warning at bird.vhd(65): signal "bird_y_motion" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 65
-Warning (10492): VHDL Process Statement warning at bird.vhd(108): signal "bird_x_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 108
-Warning (10492): VHDL Process Statement warning at bird.vhd(108): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 108
-Warning (10492): VHDL Process Statement warning at bird.vhd(109): signal "bird_y_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 109
-Warning (10492): VHDL Process Statement warning at bird.vhd(109): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 109
-Warning (10492): VHDL Process Statement warning at bird.vhd(115): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 115
-Warning (10492): VHDL Process Statement warning at bird.vhd(117): signal "bird_x_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 117
-Warning (10492): VHDL Process Statement warning at bird.vhd(118): signal "bird_y_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 118
+Warning (10540): VHDL Signal Declaration warning at bird.vhd(22): used explicit default value for signal "bird_x_pos" because signal was never assigned a value File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 22
+Warning (10036): Verilog HDL or VHDL warning at bird.vhd(36): object "u_f_row" assigned a value but never read File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 36
+Warning (10036): Verilog HDL or VHDL warning at bird.vhd(36): object "u_f_col" assigned a value but never read File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at bird.vhd(59): signal "pause_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 59
+Warning (10492): VHDL Process Statement warning at bird.vhd(59): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 59
+Warning (10492): VHDL Process Statement warning at bird.vhd(61): signal "menu_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 61
+Warning (10492): VHDL Process Statement warning at bird.vhd(65): signal "bird_y_motion" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 65
+Warning (10492): VHDL Process Statement warning at bird.vhd(108): signal "bird_x_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 108
+Warning (10492): VHDL Process Statement warning at bird.vhd(108): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 108
+Warning (10492): VHDL Process Statement warning at bird.vhd(109): signal "bird_y_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 109
+Warning (10492): VHDL Process Statement warning at bird.vhd(109): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 109
+Warning (10492): VHDL Process Statement warning at bird.vhd(115): signal "size" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 115
+Warning (10492): VHDL Process Statement warning at bird.vhd(117): signal "bird_x_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 117
+Warning (10492): VHDL Process Statement warning at bird.vhd(118): signal "bird_y_pos" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 118
 Info (12128): Elaborating entity "MOUSE" for hierarchy "MOUSE:inst1"
-Warning (10036): Verilog HDL or VHDL warning at mouse.vhd(25): object "CHARIN" assigned a value but never read File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 25
-Warning (10492): VHDL Process Statement warning at mouse.vhd(151): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 151
-Warning (10492): VHDL Process Statement warning at mouse.vhd(155): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 155
-Warning (10492): VHDL Process Statement warning at mouse.vhd(156): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 156
-Warning (10492): VHDL Process Statement warning at mouse.vhd(157): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 157
+Warning (10036): Verilog HDL or VHDL warning at mouse.vhd(25): object "CHARIN" assigned a value but never read File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 25
+Warning (10492): VHDL Process Statement warning at mouse.vhd(151): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 151
+Warning (10492): VHDL Process Statement warning at mouse.vhd(155): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 155
+Warning (10492): VHDL Process Statement warning at mouse.vhd(156): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 156
+Warning (10492): VHDL Process Statement warning at mouse.vhd(157): signal "CHAROUT" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 157
 Info (12128): Elaborating entity "game_fsm" for hierarchy "game_fsm:inst5"
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(25): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 25
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(36): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 36
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(38): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 38
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(40): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 40
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(68): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 68
-Warning (10492): VHDL Process Statement warning at game_fsm.vhd(70): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 70
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(25): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 25
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(36): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(38): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 38
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(40): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 40
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(68): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 68
+Warning (10492): VHDL Process Statement warning at game_fsm.vhd(70): signal "witch2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 70
 Info (12128): Elaborating entity "collisions" for hierarchy "collisions:inst6"
 Info (12128): Elaborating entity "pipes" for hierarchy "pipes:inst8"
-Warning (10541): VHDL Signal Declaration warning at pipes.vhd(33): used implicit default value for signal "pipe3_top" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 33
-Warning (10541): VHDL Signal Declaration warning at pipes.vhd(33): used implicit default value for signal "pipe3_bot" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 33
-Info (12128): Elaborating entity "GaloisLFSR8" for hierarchy "pipes:inst8|GaloisLFSR8:LFSR1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 69
-Info (12128): Elaborating entity "speed_control" for hierarchy "pipes:inst8|speed_control:SPEED_CHANGER" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 77
-Warning (10631): VHDL Process Statement warning at level_speed_changer.vhd(17): inferring latch(es) for signal or variable "speed", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[0]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[1]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[2]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[3]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[4]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[5]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[6]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[7]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[8]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[9]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[10]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[11]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[12]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[13]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[14]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[15]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[16]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[17]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[18]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[19]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[20]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[21]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[22]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[23]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[24]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[25]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[26]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[27]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[28]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[29]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[30]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (10041): Inferred latch for "speed[31]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
-Info (12128): Elaborating entity "gap_width_control" for hierarchy "pipes:inst8|gap_width_control:GAP_WIDTH" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/pipes.vhd Line: 88
-Warning (10631): VHDL Process Statement warning at gap_width_control.vhd(17): inferring latch(es) for signal or variable "gap_half_width", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[0]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[1]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[2]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[3]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[4]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[5]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[6]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[7]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[8]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[9]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[10]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[11]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[12]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[13]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[14]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[15]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[16]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[17]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[18]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[19]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[20]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[21]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[22]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[23]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[24]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[25]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[26]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[27]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[28]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[29]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[30]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
-Info (10041): Inferred latch for "gap_half_width[31]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Warning (10541): VHDL Signal Declaration warning at pipes.vhd(33): used implicit default value for signal "pipe3_top" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 33
+Warning (10541): VHDL Signal Declaration warning at pipes.vhd(33): used implicit default value for signal "pipe3_bot" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 33
+Info (12128): Elaborating entity "GaloisLFSR8" for hierarchy "pipes:inst8|GaloisLFSR8:LFSR1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 69
+Info (12128): Elaborating entity "speed_control" for hierarchy "pipes:inst8|speed_control:SPEED_CHANGER" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 77
+Warning (10631): VHDL Process Statement warning at level_speed_changer.vhd(17): inferring latch(es) for signal or variable "speed", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[0]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[1]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[2]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[3]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[4]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[5]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[6]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[7]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[8]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[9]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[10]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[11]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[12]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[13]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[14]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[15]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[16]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[17]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[18]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[19]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[20]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[21]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[22]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[23]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[24]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[25]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[26]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[27]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[28]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[29]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[30]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (10041): Inferred latch for "speed[31]" at level_speed_changer.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Info (12128): Elaborating entity "gap_width_control" for hierarchy "pipes:inst8|gap_width_control:GAP_WIDTH" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/pipes.vhd Line: 88
+Warning (10631): VHDL Process Statement warning at gap_width_control.vhd(17): inferring latch(es) for signal or variable "gap_half_width", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[0]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[1]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[2]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[3]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[4]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[5]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[6]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[7]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[8]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[9]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[10]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[11]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[12]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[13]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[14]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[15]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[16]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[17]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[18]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[19]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[20]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[21]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[22]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[23]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[24]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[25]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[26]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[27]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[28]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[29]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[30]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
+Info (10041): Inferred latch for "gap_half_width[31]" at gap_width_control.vhd(17) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/gap_width_control.vhd Line: 17
 Info (12128): Elaborating entity "level_fsm" for hierarchy "level_fsm:inst3"
-Warning (10492): VHDL Process Statement warning at level_fsm.vhd(33): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd Line: 33
-Warning (10492): VHDL Process Statement warning at level_fsm.vhd(33): signal "menu_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd Line: 33
-Warning (10492): VHDL Process Statement warning at level_fsm.vhd(66): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_fsm.vhd Line: 66
+Warning (10492): VHDL Process Statement warning at level_fsm.vhd(33): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd Line: 33
+Warning (10492): VHDL Process Statement warning at level_fsm.vhd(33): signal "menu_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd Line: 33
+Warning (10492): VHDL Process Statement warning at level_fsm.vhd(66): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_fsm.vhd Line: 66
 Info (12128): Elaborating entity "score" for hierarchy "score:inst12"
 Info (12128): Elaborating entity "powerup_collision" for hierarchy "powerup_collision:inst18"
 Info (12128): Elaborating entity "powerups" for hierarchy "powerups:inst11"
-Warning (10036): Verilog HDL or VHDL warning at powerups.vhd(22): object "screen_height" assigned a value but never read File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 22
+Warning (10036): Verilog HDL or VHDL warning at powerups.vhd(22): object "screen_height" assigned a value but never read File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 22
 Info (12128): Elaborating entity "ground" for hierarchy "ground:inst9"
-Warning (10492): VHDL Process Statement warning at ground.vhd(52): signal "u_rom_mux_out" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground.vhd Line: 52
-Info (12128): Elaborating entity "ground_rom" for hierarchy "ground:inst9|ground_rom:water" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground.vhd Line: 37
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
-Info (12130): Elaborated megafunction instantiation "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
-Info (12133): Instantiated megafunction "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
+Warning (10492): VHDL Process Statement warning at ground.vhd(52): signal "u_rom_mux_out" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground.vhd Line: 52
+Info (12128): Elaborating entity "ground_rom" for hierarchy "ground:inst9|ground_rom:water" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground.vhd Line: 37
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
+Info (12130): Elaborated megafunction instantiation "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
+Info (12133): Instantiated megafunction "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -1776,46 +1778,47 @@ Info (12133): Instantiated megafunction "ground:inst9|ground_rom:water|altsyncra
     Info (12134): Parameter "width_a" = "13"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_76g1.tdf
-    Info (12023): Found entity 1: altsyncram_76g1 File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_76g1 File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_76g1" for hierarchy "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst|altsyncram_76g1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Critical Warning (127005): Memory depth (1024) in the design file differs from memory depth (256) in the Memory Initialization File "C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/water.mif" -- setting initial value for remaining addresses to 0 File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/ground_rom.vhd Line: 50
 Info (12128): Elaborating entity "score_display" for hierarchy "score_display:inst13"
-Warning (10492): VHDL Process Statement warning at score_display.vhd(57): signal "score_hundreds" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 57
-Warning (10492): VHDL Process Statement warning at score_display.vhd(71): signal "score_tens" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 71
-Warning (10492): VHDL Process Statement warning at score_display.vhd(85): signal "score_ones" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 85
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_font_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_font_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_ones", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_tens", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_hundreds", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[4]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[5]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_hundreds[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_hundreds[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_hundreds[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_hundreds[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_tens[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_tens[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_tens[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_tens[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_ones[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_ones[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_ones[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "score_ones[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_col[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_col[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_col[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_row[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_row[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (10041): Inferred latch for "u_font_row[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 47
-Info (12128): Elaborating entity "char_rom" for hierarchy "score_display:inst13|char_rom:char_rom_inst" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 37
-Info (12128): Elaborating entity "altsyncram" for hierarchy "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd Line: 51
-Info (12130): Elaborated megafunction instantiation "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd Line: 51
-Info (12133): Instantiated megafunction "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/char_rom.vhd Line: 51
+Warning (10492): VHDL Process Statement warning at score_display.vhd(57): signal "score_hundreds" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 57
+Warning (10492): VHDL Process Statement warning at score_display.vhd(71): signal "score_tens" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 71
+Warning (10492): VHDL Process Statement warning at score_display.vhd(85): signal "score_ones" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 85
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_font_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_font_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_ones", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_tens", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "score_hundreds", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at score_display.vhd(47): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[4]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[5]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_hundreds[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_hundreds[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_hundreds[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_hundreds[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_tens[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_tens[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_tens[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_tens[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_ones[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_ones[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_ones[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "score_ones[3]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_col[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_col[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_col[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_row[0]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_row[1]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (10041): Inferred latch for "u_font_row[2]" at score_display.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 47
+Info (12128): Elaborating entity "char_rom" for hierarchy "score_display:inst13|char_rom:char_rom_inst" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 37
+Info (12128): Elaborating entity "altsyncram" for hierarchy "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd Line: 51
+Info (12130): Elaborated megafunction instantiation "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd Line: 51
+Info (12133): Instantiated megafunction "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/char_rom.vhd Line: 51
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -1831,163 +1834,163 @@ Info (12133): Instantiated megafunction "score_display:inst13|char_rom:char_rom_
     Info (12134): Parameter "width_a" = "8"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_vtf1.tdf
-    Info (12023): Found entity 1: altsyncram_vtf1 File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_vtf1 File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_vtf1" for hierarchy "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component|altsyncram_vtf1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "static_text" for hierarchy "static_text:inst14"
-Warning (10492): VHDL Process Statement warning at static_text.vhd(366): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 366
-Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_f_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_f_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[3]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[4]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_char_address[5]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_col[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_col[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_col[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_row[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_row[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-Info (10041): Inferred latch for "u_f_row[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Warning (10492): VHDL Process Statement warning at static_text.vhd(366): signal "end_game_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 366
+Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_f_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_f_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Warning (10631): VHDL Process Statement warning at static_text.vhd(46): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[3]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[4]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_char_address[5]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_col[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_col[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_col[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_row[0]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_row[1]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+Info (10041): Inferred latch for "u_f_row[2]" at static_text.vhd(46) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
 Info (12128): Elaborating entity "lives_display" for hierarchy "lives_display:inst57"
-Warning (10492): VHDL Process Statement warning at lives.vhd(49): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 49
-Warning (10492): VHDL Process Statement warning at lives.vhd(53): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 53
-Warning (10492): VHDL Process Statement warning at lives.vhd(69): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 69
-Warning (10492): VHDL Process Statement warning at lives.vhd(83): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 83
-Warning (10492): VHDL Process Statement warning at lives.vhd(97): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 97
-Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_f_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_f_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[0]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[1]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[2]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[3]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[4]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_char_address[5]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_col[0]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_col[1]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_col[2]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_row[0]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_row[1]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Info (10041): Inferred latch for "u_f_row[2]" at lives.vhd(47) File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Warning (14025): LATCH primitive "powerups:inst11|speed_control:SPEED_CHANGER|speed[1]" is permanently disabled File: C:/Users/deven/Documents/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
+Warning (10492): VHDL Process Statement warning at lives.vhd(49): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 49
+Warning (10492): VHDL Process Statement warning at lives.vhd(53): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 53
+Warning (10492): VHDL Process Statement warning at lives.vhd(69): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 69
+Warning (10492): VHDL Process Statement warning at lives.vhd(83): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 83
+Warning (10492): VHDL Process Statement warning at lives.vhd(97): signal "total_collisions" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 97
+Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_f_row", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_f_col", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Warning (10631): VHDL Process Statement warning at lives.vhd(47): inferring latch(es) for signal or variable "u_char_address", which holds its previous value in one or more paths through the process File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[0]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[1]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[2]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[3]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[4]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_char_address[5]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_col[0]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_col[1]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_col[2]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_row[0]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_row[1]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Info (10041): Inferred latch for "u_f_row[2]" at lives.vhd(47) File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Warning (14025): LATCH primitive "powerups:inst11|speed_control:SPEED_CHANGER|speed[1]" is permanently disabled File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/level_speed_changer.vhd Line: 17
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst|altsyncram_76g1:auto_generated|q_a[12]" File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf Line: 286
+        Warning (14320): Synthesized away node "ground:inst9|ground_rom:water|altsyncram:altsyncram_inst|altsyncram_76g1:auto_generated|q_a[12]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_76g1.tdf Line: 286
 Info (278001): Inferred 7 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "powerups:inst11|Mod1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 86
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "powerups:inst11|Mod0" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 73
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Div1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod2" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod0" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 52
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Div0" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 53
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 53
-Info (12130): Elaborated megafunction instantiation "powerups:inst11|lpm_divide:Mod1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 86
-Info (12133): Instantiated megafunction "powerups:inst11|lpm_divide:Mod1" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 86
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "powerups:inst11|Mod1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 86
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "powerups:inst11|Mod0" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 73
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Div1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod2" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod0" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 52
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Div0" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 53
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "score_display:inst13|Mod1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 53
+Info (12130): Elaborated megafunction instantiation "powerups:inst11|lpm_divide:Mod1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 86
+Info (12133): Instantiated megafunction "powerups:inst11|lpm_divide:Mod1" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 86
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_c2m.tdf
-    Info (12023): Found entity 1: lpm_divide_c2m File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_c2m.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_c2m File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_c2m.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_fkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_fkh File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_fkh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_fkh File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_fkh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_4te.tdf
-    Info (12023): Found entity 1: alt_u_div_4te File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_4te.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "powerups:inst11|lpm_divide:Mod0" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 73
-Info (12133): Instantiated megafunction "powerups:inst11|lpm_divide:Mod0" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/powerups.vhd Line: 73
+    Info (12023): Found entity 1: alt_u_div_4te File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_4te.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "powerups:inst11|lpm_divide:Mod0" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 73
+Info (12133): Instantiated megafunction "powerups:inst11|lpm_divide:Mod0" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/powerups.vhd Line: 73
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Div1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
-Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Div1" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
+Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Div1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
+Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Div1" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
     Info (12134): Parameter "LPM_WIDTHN" = "9"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_9am.tdf
-    Info (12023): Found entity 1: lpm_divide_9am File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_9am.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_9am File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_9am.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_gkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_gkh File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_gkh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_gkh File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_gkh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_5te.tdf
-    Info (12023): Found entity 1: alt_u_div_5te File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_5te.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Mod2" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
-Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Mod2" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 54
+    Info (12023): Found entity 1: alt_u_div_5te File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_5te.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Mod2" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
+Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Mod2" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 54
     Info (12134): Parameter "LPM_WIDTHN" = "9"
     Info (12134): Parameter "LPM_WIDTHD" = "9"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_e2m.tdf
-    Info (12023): Found entity 1: lpm_divide_e2m File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_e2m.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_e2m File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_e2m.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_hkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_hkh File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_hkh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_hkh File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_hkh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_8te.tdf
-    Info (12023): Found entity 1: alt_u_div_8te File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_8te.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Div0" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 53
-Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Div0" with the following parameter: File: C:/Users/deven/Documents/CleanProject/VhdlFiles/score_display.vhd Line: 53
+    Info (12023): Found entity 1: alt_u_div_8te File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_8te.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "score_display:inst13|lpm_divide:Div0" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 53
+Info (12133): Instantiated megafunction "score_display:inst13|lpm_divide:Div0" with the following parameter: File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/score_display.vhd Line: 53
     Info (12134): Parameter "LPM_WIDTHN" = "9"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_6am.tdf
-    Info (12023): Found entity 1: lpm_divide_6am File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/lpm_divide_6am.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_6am File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/lpm_divide_6am.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_ckh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_ckh File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/sign_div_unsign_ckh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_ckh File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/sign_div_unsign_ckh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_use.tdf
-    Info (12023): Found entity 1: alt_u_div_use File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/alt_u_div_use.tdf Line: 22
+    Info (12023): Found entity 1: alt_u_div_use File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/alt_u_div_use.tdf Line: 22
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[2]" merged with LATCH primitive "score_display:inst13|u_font_col[2]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[1]" merged with LATCH primitive "score_display:inst13|u_font_col[1]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[0]" merged with LATCH primitive "score_display:inst13|u_font_row[0]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[1]" merged with LATCH primitive "score_display:inst13|u_font_row[1]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[2]" merged with LATCH primitive "score_display:inst13|u_font_row[2]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[0]" merged with LATCH primitive "score_display:inst13|u_font_col[0]" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-Warning (13012): Latch static_text:inst14|u_f_col[2] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
-Warning (13012): Latch static_text:inst14|u_f_col[1] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
-Warning (13012): Latch static_text:inst14|u_f_row[0] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[0] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_f_row[1] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[1] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_f_row[2] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[2] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[0] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[1] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[2] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[3] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[4] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_char_address[5] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
-Warning (13012): Latch static_text:inst14|u_f_col[0] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/static_text.vhd Line: 46
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
-Warning (13012): Latch lives_display:inst57|u_char_address[5] has unsafe behavior File: C:/Users/deven/Documents/CleanProject/VhdlFiles/lives.vhd Line: 47
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Training File: C:/Users/deven/Documents/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
-Info (13000): Registers with preset signals will power-up high File: C:/Users/deven/Documents/CleanProject/VhdlFiles/mouse.vhd Line: 146
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[2]" merged with LATCH primitive "score_display:inst13|u_font_col[2]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[1]" merged with LATCH primitive "score_display:inst13|u_font_col[1]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[0]" merged with LATCH primitive "score_display:inst13|u_font_row[0]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[1]" merged with LATCH primitive "score_display:inst13|u_font_row[1]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_row[2]" merged with LATCH primitive "score_display:inst13|u_font_row[2]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Info (13026): Duplicate LATCH primitive "lives_display:inst57|u_f_col[0]" merged with LATCH primitive "score_display:inst13|u_font_col[0]" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+Warning (13012): Latch static_text:inst14|u_f_col[2] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
+Warning (13012): Latch static_text:inst14|u_f_col[1] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
+Warning (13012): Latch static_text:inst14|u_f_row[0] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[0] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_f_row[1] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[1] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_f_row[2] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[2] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[0] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[1] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[2] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[3] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[4] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_char_address[5] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal VGA_SYNC:inst2|pixel_row[6] File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/vga_sync.vhd Line: 99
+Warning (13012): Latch static_text:inst14|u_f_col[0] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/static_text.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Menu File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
+Warning (13012): Latch lives_display:inst57|u_char_address[5] has unsafe behavior File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/lives.vhd Line: 47
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal game_fsm:inst5|state.Training File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/game_fsm.vhd Line: 19
+Info (13000): Registers with preset signals will power-up high File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/mouse.vhd Line: 146
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "bird:inst26|bird_y_motion[9]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[9]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[8]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[8]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[7]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[7]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[6]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[6]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[5]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[5]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[4]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[4]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[3]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[3]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[2]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[2]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[1]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[1]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
-    Warning (13310): Register "bird:inst26|bird_y_motion[0]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[0]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[9]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[9]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[8]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[8]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[7]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[7]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[6]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[6]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[5]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[5]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[4]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[4]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[3]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[3]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[2]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[2]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[1]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[1]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
+    Warning (13310): Register "bird:inst26|bird_y_motion[0]" is converted into an equivalent circuit using register "bird:inst26|bird_y_motion[0]~_emulated" and latch "bird:inst26|bird_y_motion[9]~1" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/VhdlFiles/bird.vhd Line: 68
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDR4" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component|altsyncram_vtf1:auto_generated|ALTSYNCRAM" File: C:/Users/deven/Documents/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf Line: 31
+Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "score_display:inst13|char_rom:char_rom_inst|altsyncram:altsyncram_component|altsyncram_vtf1:auto_generated|ALTSYNCRAM" File: C:/Users/deven/Documents/FPGA/FPGA-Console/CleanProject/QuartusFiles/db/altsyncram_vtf1.tdf Line: 31
 Warning (20013): Ignored 24 assignments for entity "DE0_CV_Default" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity DE0_CV_Default -section_id Top was ignored
     Warning (20014): Assignment for entity set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity DE0_CV_Default -section_id Top was ignored
@@ -2027,10 +2030,10 @@ Info (21057): Implemented 1549 device resources after synthesis - the final reso
     Info (21061): Implemented 1478 logic cells
     Info (21064): Implemented 36 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 141 warnings
-    Info: Peak virtual memory: 4954 megabytes
-    Info: Processing ended: Tue May 28 13:27:14 2024
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:11
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 142 warnings
+    Info: Peak virtual memory: 4953 megabytes
+    Info: Processing ended: Tue Nov 11 17:11:48 2025
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:26
 
 

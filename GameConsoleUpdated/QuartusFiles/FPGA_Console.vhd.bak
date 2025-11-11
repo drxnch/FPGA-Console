@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_Console is
+end entity;
+
+architecture rtl of FPGA_Console is
+  signal clk_25MHz           : std_logic;
+  signal VGA_R, VGA_G, VGA_B : std_logic_vector(7 downto 0);
+
+begin
+
+  pll_25MHz : entity work.pll_25MHz
+    port map
+    (
+      outclk_0 => clk_25MHz,
+      locked   => '0'
+    );
+
+  vga_sync : entity work.vga_sync
+    port map
+    (
+      clock_25Mhz => clk_25MHz,
+      VGA_R       => VGA_R,
+      VGA_G       => VGA_G,
+      VGA_B       => VGA_B
+    );
+
+end architecture;
