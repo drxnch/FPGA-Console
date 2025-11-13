@@ -1,5 +1,5 @@
 Flow report for FPGA_Console
-Tue Nov 11 18:20:59 2025
+Thu Nov 13 21:59:44 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Nov 11 18:20:53 2025       ;
+; Flow Status                     ; Successful - Thu Nov 13 21:59:38 2025       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; FPGA_Console                                ;
 ; Top-level Entity Name           ; FPGA_Console                                ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 17 / 32,070 ( < 1 % )                       ;
-; Total registers                 ; 20                                          ;
+; Logic utilization (in ALMs)     ; 73 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 58                                          ;
 ; Total pins                      ; 40 / 457 ( 9 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
@@ -67,31 +67,35 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/11/2025 18:20:04 ;
+; Start date & time ; 11/13/2025 21:58:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FPGA_Console        ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                               ;
-+-------------------------------------+-----------------------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                                         ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+-----------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 4681964233787.176283840428380                 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                            ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                             ; --            ; --          ; --         ;
-; MISC_FILE                           ; QuartusComponents/pll_25MHz.cmp               ; --            ; --          ; --         ;
-; MISC_FILE                           ; QuartusComponents/pll_25MHz_sim/pll_25MHz.vho ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)        ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)        ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)        ; --            ; --          ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                           ; --            ; --          ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW         ; --            ; --          ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                  ; --            ; --          ; --         ;
-; SPD_FILE                            ; QuartusComponents/pll_25MHz.spd               ; --            ; --          ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                            ; --            ; --          ; --         ;
-+-------------------------------------+-----------------------------------------------+---------------+-------------+------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                           ;
++-------------------------------------+-----------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                                     ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+-----------------------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 4681964233787.176302431802188                             ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                        ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                         ; --            ; --          ; --         ;
+; MISC_FILE                           ; QuartusComponents/pll_25MHz.cmp                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; QuartusComponents/pll_25MHz_sim/pll_25MHz.vho             ; --            ; --          ; --         ;
+; MISC_FILE                           ; QuartusComponents/pll_25MHz_exact.cmp                     ; --            ; --          ; --         ;
+; MISC_FILE                           ; QuartusComponents/pll_25MHz_exact_sim/pll_25MHz_exact.vho ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                    ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                    ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                    ; --            ; --          ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                       ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                     ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                              ; --            ; --          ; --         ;
+; SPD_FILE                            ; QuartusComponents/pll_25MHz.spd                           ; --            ; --          ; --         ;
+; SPD_FILE                            ; QuartusComponents/pll_25MHz_exact.spd                     ; --            ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                        ; --            ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                        ; --            ; --          ; --         ;
++-------------------------------------+-----------------------------------------------------------+---------------+-------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -99,11 +103,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4925 MB             ; 00:00:19                           ;
-; Fitter               ; 00:00:31     ; 1.0                     ; 7909 MB             ; 00:02:09                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4836 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5301 MB             ; 00:00:05                           ;
-; Total                ; 00:00:53     ; --                      ; --                  ; 00:02:40                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4910 MB             ; 00:00:21                           ;
+; Fitter               ; 00:00:41     ; 1.0                     ; 7973 MB             ; 00:03:25                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4841 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.2                     ; 5313 MB             ; 00:00:06                           ;
+; Total                ; 00:01:03     ; --                      ; --                  ; 00:03:58                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

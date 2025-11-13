@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="pll_25MHz_exact_sim/pll_25MHz_exact.vho" type="VHDL" />
+ <topLevel name="pll_25MHz_exact" />
+ <deviceFamily name="cyclonev" />
+</simPackage>
